@@ -1,0 +1,192 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good evening",
+          "Hi there"
+        ],
+        "responses": [
+          "Hello! How can I help you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How's it going?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "I’m leaving",
+          "Catch you later"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Take care!",
+          "Bye! Looking forward to our next chat."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That’s helpful",
+          "Thanks for the help"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "Anytime! Let me know if you need anything else."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need assistance",
+          "What can you do?",
+          "What services do you offer?",
+          "Help me please"
+        ],
+        "responses": [
+          "I'm here to help! You can ask me anything.",
+          "Sure, I'm here to assist you. Tell me what you need help with.",
+          "I can provide information, answer questions, and assist with various tasks. Let me know what you need."
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What’s the weather like?",
+          "Tell me the weather",
+          "Weather forecast",
+          "How’s the weather today?",
+          "Is it going to rain?"
+        ],
+        "responses": [
+          "I'm not connected to a live weather service, but you can check your local weather app!",
+          "I suggest checking a weather service online for the latest updates.",
+          "For the most accurate forecast, try a weather app or website."
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What’s your name?",
+          "Who are you?",
+          "Tell me your name",
+          "Introduce yourself"
+        ],
+        "responses": [
+          "I'm your friendly chatbot, here to help!",
+          "You can call me Chatbot! I'm here to assist you.",
+          "I'm your virtual assistant. How can I be of service today?"
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "I want to hear something funny",
+          "Make me laugh",
+          "Do you know any jokes?"
+        ],
+        "responses": [
+          "Why don’t scientists trust atoms? Because they make up everything!",
+          "Why did the bicycle fall over? It was two-tired!",
+          "I told my computer I needed a break, and now it won’t stop sending me KitKats!"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "How old are you?",
+          "What’s your age?",
+          "Are you young or old?",
+          "Tell me your age"
+        ],
+        "responses": [
+          "Age is just a number for a chatbot like me!",
+          "I'm timeless, but always here to help you.",
+          "Let’s just say I’m as old as the internet."
+        ]
+      },
+      {
+        "tag": "bot_capabilities",
+        "patterns": [
+          "What can you do?",
+          "How can you help me?",
+          "Tell me your capabilities",
+          "What are your functions?"
+        ],
+        "responses": [
+          "I can answer your questions, tell jokes, provide information, and assist with tasks. How can I help?",
+          "I'm here to assist you with your queries and make your day a little brighter!",
+          "From answering questions to sharing fun facts, I’ve got you covered!"
+        ]
+      },
+      {
+        "tag": "fun_fact",
+        "patterns": [
+          "Tell me a fun fact",
+          "Do you know any interesting facts?",
+          "I want to hear something cool",
+          "Give me a random fact"
+        ],
+        "responses": [
+          "Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!",
+          "Bananas are berries, but strawberries aren’t!",
+          "Octopuses have three hearts. Two pump blood to the gills, while the third pumps it to the rest of the body."
+        ]
+      },
+      {
+        "tag": "feedback",
+        "patterns": [
+          "I have some feedback",
+          "I want to give feedback",
+          "Can I provide feedback?",
+          "How can I share my thoughts?"
+        ],
+        "responses": [
+          "Thanks for offering feedback! Please let me know your thoughts.",
+          "I’d love to hear your feedback. Feel free to share!",
+          "Your feedback helps me improve. Go ahead, I'm listening."
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I have a complaint",
+          "I’m not satisfied",
+          "There’s something wrong",
+          "I need to complain"
+        ],
+        "responses": [
+          "I'm sorry to hear that! Could you please tell me more about the issue?",
+          "I apologize for any inconvenience. Let me know the details, and I'll try to assist.",
+          "I'm here to help fix the problem. Could you explain what's wrong?"
+        ]
+      },
+      {
+        "tag": "recommendations",
+        "patterns": [
+          "Can you recommend something?",
+          "I need a suggestion",
+          "What do you recommend?",
+          "Suggest something to me"
+        ],
+        "responses": [
+          "Sure! Let me know what you’re looking for—books, movies, restaurants?",
+          "I'd love to recommend something. Are you interested in food, entertainment, or something else?",
+          "Let me know what you’d like recommendations on, and I’ll do my best!"
+        ]
+      }
+    ]
+  }
+  
